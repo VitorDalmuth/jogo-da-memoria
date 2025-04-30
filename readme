@@ -1,0 +1,48 @@
+# 🧠 Jogo da Memória Visual Top (Tkinter)
+
+Este é um jogo da memória educacional feito com Python e a biblioteca gráfica **Tkinter**. O objetivo é reforçar conceitos de estruturas de dados (como fila, pilha e lista) de forma interativa, colorida e divertida.
+
+---
+
+## 🎮 Como Funciona
+
+Dois jogadores se alternam clicando em cartas viradas (marcadas com “X”) para tentar encontrar pares corretos. Cada par é composto por uma pergunta e sua resposta (por exemplo, “Como é o comportamento da fila?” e “FIFO”).
+
+- Quando o par está correto, ele permanece visível e o jogador marca ponto.
+- Quando está incorreto, as cartas viram novamente e o turno passa para o próximo jogador.
+- O jogo termina quando todas as cartas estiverem reveladas.
+- É exibida uma **mensagem de fim de jogo** com o placar e o vencedor.
+
+---
+
+## 🧩 Estrutura dos Pares
+
+Cada par possui também uma **cor exclusiva**, que é usada como plano de fundo da carta ao ser revelada. Isso ajuda a tornar a experiência visualmente mais agradável.
+
+Exemplo de par:
+- Pergunta: “Qual estrutura só usa o topo para adicionar e remover?”
+- Resposta: “Pilha”
+- Cor de fundo: `#dda0dd` (lavanda)
+
+---
+
+## 🛠️ Tecnologias Usadas
+
+- **Python 3**
+- **Tkinter** (GUI nativa do Python)
+- **Collections.deque** para controle de turnos
+- **random.shuffle** para embaralhamento das cartas
+
+---
+
+## 📂 Como Rodar
+
+### Requisitos:
+- Python 3 instalado
+- Tkinter (já vem com Python no macOS e Windows)
+
+### Executar no terminal:
+
+```bash
+pip install tk
+python3 "Jogo da Memoria.py"
