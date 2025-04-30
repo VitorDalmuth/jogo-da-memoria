@@ -1,4 +1,22 @@
+"""
+🧠 Jogo da Memória Visual Top
+Versão: 1.1
 
+Autores:
+- Emilly Ruff
+- Guilherme Izaias
+- Giorgio Buka
+- Gabriel Jabour
+- Rafaela Martins Coelho
+- Vitor Luis Dalmuth
+
+Descrição:
+Jogo da memória educativo com interface gráfica em Tkinter.
+Cada par representa uma pergunta e resposta sobre estruturas de dados,
+como pilha, fila, listas e listas 2D. O jogo alterna os turnos entre dois jogadores,
+registra a pontuação e exibe o vencedor ao final.
+Ideal para reforçar conceitos de estrutura de dados de forma interativa.
+"""
 import tkinter as tk
 from tkinter import messagebox
 import random
