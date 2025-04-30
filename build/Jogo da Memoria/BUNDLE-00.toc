@@ -1,0 +1,3 @@
+([('Jogo da Memoria',
+   '/Users/jabour/python/Jogo da memoria/jogo-da-memoria/dist/Jogo da Memoria',
+   'EXECUTABLE')],)
