@@ -138,13 +138,6 @@ Jogo da Memoria/
 ## 🧠 Conclusão
 
 Este projeto integra o conteúdo teórico de estruturas de dados com uma aplicação prática em Python. Ele demonstra claramente o uso de **Pilha, Fila e Lista** em um contexto lúdico, colaborativo e visual.
-
-O jogo pode ser estendido para incluir:
-
-- Modo solo com cronômetro
-- Animações ou sons
-- Mais níveis de dificuldade
-
 ---
 
 ## ✅ requirements.txt
