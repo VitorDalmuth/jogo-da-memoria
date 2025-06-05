@@ -42,6 +42,7 @@ Exemplo de par:
 - Tkinter (já vem com Python no macOS e Windows)
 
 ### Executar no terminal:
+pip install -r requirements.txt
 
 ```bash
 pip install tk
